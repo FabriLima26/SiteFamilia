@@ -1,0 +1,34 @@
+﻿@model List<SiteFamilia.Models.Mae>
+@{
+    ViewData["Title"] = "Perfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Perfil</h2>
+<span><br>Total de registros:<br /> </span>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Primeiro</th>
+            <th scope="col">Último</th>
+            <th scope="col">Nickname</th>
+        </tr>
+    </thead>
+    
+        <tbody>
+            <tr>
+                <th scope="row">@ViewBag.Id</th>
+                <td>@ViewBag.Nome</td>
+                <td>@ViewBag.Sobrenome</td>
+                <td>
+                    <a href="/mae/atualizar/@ViewBag.Id" class="btn">Editar</a>
+                    <a href="/mae/excluir/@ViewBag.Id" class="btn">Excluir</a>
+                </td>
+            </tr>
+        </tbody>
+    
+
+</table>

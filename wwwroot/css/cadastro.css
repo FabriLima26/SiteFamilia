@@ -1,0 +1,30 @@
+
+body{
+    padding:0;
+    margin:0;
+}
+.container {
+    width: 1600px;
+    height:900px;
+    margin: auto;
+    border: 1px solid red;
+    
+}
+.Cadastro{
+    width:800px;
+    margin:auto;
+    position:relative;
+    top:300px;
+    
+
+    
+}
+.row, .form-group {
+    margin-top: 20px;
+    padding: 0;
+}
+.alt,.nasc{
+    width:200px;
+    margin-left:15px;
+    
+}

@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin:0;
+    background-image:url(/imagens/formacao_o-significado-de-cada-letra-da-palavra-familia.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.container{
+    margin: auto;
+    
+}
+
+.Login{
+    width:500px;
+    position:absolute;
+    bottom:50px;
+    right:50px;
+    background-color:rgba(0,0,0,0.3);
+    padding: 20px;
+    color:white;
+}
+footer{
+    padding:10px 0 10px 0;
+    font-size:11px;
+    text-align:center;
+}

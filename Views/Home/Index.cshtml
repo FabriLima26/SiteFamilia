@@ -1,0 +1,32 @@
+﻿
+
+<!DOCTYPER html>
+<html>
+<head>
+    <title> Cadastro de Familias</title>
+    <link rel="stylesheet" type="text/css" href="~/css/familia.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+    <body>
+
+
+    <div class="container">
+
+        <form class="Login" method="post" action="/home/login">
+            <div class="form-group">
+                <label for="email">Endereço de email</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Seu email">
+                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" class="form-control" id="senha" placeholder="Senha">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <a href="/mae/cadastrar" class="btn btn-primary">Cadastre-se</a>
+            <footer>Family Book &copy;@DateTime.Now.Year</footer>
+        </form>
+        @ViewBag.Mensagem
+    </div>
+    </body>
+</html>
